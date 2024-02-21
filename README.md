@@ -21,6 +21,15 @@ The trained models are evaluated using the testing dataset, which contains unsee
 Accuracy scores, confusion matrices, and classification reports are generated to quantitatively measure the performance of each algorithm. These metrics provide insights into the models' ability to correctly predict stock price movements.
 Additionally, qualitative analysis of the predictions and their alignment with actual stock price movements can provide further understanding of the models' effectiveness.
 
+| Algorithm       | Bag of Words Accuracy | TF-IDF Accuracy |
+|-----------------|-----------------------|-----------------|
+| Random Forest   | 0.8492                | 0.8466          |
+| Naive Bayes     | 0.8439                | 0.8545          |
+| SVM             | 0.8519                | 0.8519          |
+
+Based on the matrix, it appears that Naive Bayes consistently performs the best across both Bag of Words and TF-IDF approaches, achieving an accuracy of 85.45% with TF-IDF. SVM also performs well with an accuracy of 85.19% in both cases. Random Forest, while still performing decently, has slightly lower accuracy compared to Naive Bayes and SVM.
+
+
 ## Conclusion:
 
 In conclusion, this project demonstrates the potential of machine learning algorithms in predicting stock price movements based on news headlines.
