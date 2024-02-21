@@ -1,4 +1,4 @@
-## Title: Stock Price Prediction using News Headlines and Machine Learning Algorithms
+# Title: Stock Price Prediction using News Headlines and Machine Learning Algorithms
 
 ## Introduction:
 In today's dynamic financial markets, predicting stock price movements accurately is crucial for investors and traders to make informed decisions. News headlines often contain valuable information that can impact stock prices. This project endeavors to leverage machine learning algorithms to analyze news headlines and predict stock price movements. By harnessing natural language processing (NLP) techniques and powerful machine learning models, the project aims to provide valuable insights for stock market participants.
